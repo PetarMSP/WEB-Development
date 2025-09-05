@@ -1,0 +1,74 @@
+.div-Bisokop{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+}
+.div-Info{
+   display: grid;
+   grid-template-columns: 350px 1fr;
+   width: 100%;
+}
+.div-Projekcija{
+   display: grid;
+}
+.lbl-Tekst{
+  text-align: center;
+}
+.lbl-TekstKupiKartu{
+  text-align: center;
+  font-size: medium;
+}
+.div-KupovinaKarte{
+   border: 2px solid black;
+   gap: 10px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+}
+.div-ListaKarata{
+   border: 2px solid black;
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 5px;
+   font-size: small;
+   align-items: center;
+   justify-content: flex-start;
+}
+.div-Polja
+{
+   display: grid;
+   gap: 5px;
+   grid-template-columns: 2fr 1fr;
+   width: 100%;
+   justify-items: stretch;
+}
+.margin{
+   margin: 5px;
+}
+.dugme-Kupi{
+   padding: 5px;
+   text-align: center;
+}
+.div-KartaSlobodna{
+  border: 1px solid black;
+  background-color: greenyellow;
+  padding: 10px 20px;
+  width: 100px;      
+  height: 20px;       
+  display: flex;      
+  align-items: center;
+  justify-content: center;
+}
+.div-KartaZauzeta{
+  border: 1px solid black;
+  background-color: red;
+  padding: 10px 20px;
+  width: 100px;      
+  height: 20px;       
+  display: flex;      
+  align-items: center;
+  justify-content: center;
+}
