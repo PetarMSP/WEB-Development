@@ -1,0 +1,38 @@
+dotnet clean
+dotnet restore
+dotnet build
+dotnet run
+dotnet watch run
+
+Sertifikat:
+ dotnet tool list -g
+
+dotnet dev-certs https --trust
+
+
+kreiranje migracije 
+
+dotnet ef migrations add 
+
+kreiranje baze 
+sqllocaldb info
+sqllocaldb create Ispit -s          // -s znaci da se automacki statuje pri kreaciji
+dotnet ef database update
+dotnet ef database drop -IME-
+
+Format vremena DateTime najlaksi nacin na browser desni klik Inspect pa odaberi Console i kucate new Date().toISOString() 
+2024-08-12T17:00:00.000Z
+
+[RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
+[StringLength(60,MinimumLength=3)]
+[Required]
+public string Ime { get; set; }
+        
+[Display(Name="Datum Rodjenja")]
+[DataType(DataType.Date)]
+[Range(typeof(DateTime), "1/1/1966", "1/1/2020")]
+[Required]
+public DateTime DatumRodjenja {get;set;}
+
+
+233217km sedici 8.31.2025
