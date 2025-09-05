@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+.Forma{
+  flex-direction: column;
+  border: 2px solid black;
+
+}
+
+.Forma-Dodaj{
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.margin{
+  padding: 5px;
+}
+.Labela-Upisi{
+   text-align: center;
+   margin: 10px;
+   font-weight: bold;
+   font-size: large;
+}
+.divDodaj{
+    display: grid;
+    width: 200px;
+    grid-template-columns: 90px 100px;
+    grid-row-gap: 5px;
+    padding: 5px;
+}
+.dugme-Dodaj{
+   margin-top: 0px;
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+}
